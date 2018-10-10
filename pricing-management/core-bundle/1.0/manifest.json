@@ -1,0 +1,26 @@
+{
+  "bundles": {
+    "Isalud\\Pricing\\Core\\CoreBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/pricing_core.yaml": "%CONFIG_DIR%/packages/pricing_core.yaml"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd",
+    "composer dumpautoload -o": "script",
+    "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
+  },
+  "env": {
+    "CORE_DB_NAME": "name-bd",
+    "CORE_DB_USERNAME": "user",
+    "CORE_DB_PASSWORD": "password",
+    "CORE_DB_HOST": "test.host.com",
+    "CORE_DB_DRIVER": "mysql"
+  },
+  "gitignore": [
+    ".env",
+    "/public/bundles/",
+    "/var/",
+    "/vendor/"
+  ]
+}

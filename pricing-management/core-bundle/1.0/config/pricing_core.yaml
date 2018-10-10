@@ -1,0 +1,10 @@
+pricing_core:
+    db:
+        driver: "%env(CORE_DB_DRIVER)%"
+        host: "%env(CORE_DB_HOST)%"
+        dbname: "%env(CORE_DB_NAME)%"
+        username: "%env(CORE_DB_USERNAME)%"
+        password: "%env(CORE_DB_PASSWORD)%"
+    main:
+        client_id: 1
+        client_secret: 2

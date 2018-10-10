@@ -6,7 +6,7 @@
     "config/": "%CONFIG_DIR%/"
   },
   "env": {
-    "ACME_FOO": "hellooooo",
+    "ACME_FOO": "helloooooaaaaaa",
     "ACME_BAR": "world"
   }
 }

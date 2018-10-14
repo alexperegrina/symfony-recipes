@@ -1,0 +1,12 @@
+{
+  "bundles": {
+    "Isalud\\Pricing\\PricingAbcBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "env": {
+    "ACME_FOO": "hellaasddddooaaaaaa",
+    "ACME_BAR": "world"
+  }
+}
